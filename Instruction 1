@@ -1,0 +1,17 @@
+Is File Ko Kaise Use Karein:
+​File Download & Rename:
+​Upar diye gaye link se pneumatic_control_pic16f877a_hex.txt file download karein.
+​Us file ko rename karke extension बदल दें: pneumatic_control_pic16f877a.hex (या नोटपैड से ओपन करके डायरेक्ट .hex फ़ाइल के रूप में सेव कर लें)।
+​PICkit se Flash karne ka Tarika (Using MPLAB IPE):
+​MPLAB IPE (Microchip IPE software) open karein.
+​Family: Mid-Range 8-bit MCUs chunein.
+​Device: PIC16F877A select karein.  
+​Tool: Apna PICkit 3 / PICkit 4 select karein aur Connect par click karein.
+​Hex File: Source (Hex) File option mein jaakar download ki gayi .hex file select karein.
+​Program: Program button par click kar dein.
+​Is HEX File ka Pin Mapping Aur Working Logic:
+​Clock / Crystal Speed: 20MHz (Board par lage standard crystal ke hisab se).  
+​Input Pin (Sensor Signal): RB0 (Pin 33 / Board Input Connectors).
+​Output Pin (Valve Driver): RC0 (Pin 15 / Driver Circuit to 24V Valve Output).
+​Timing: Object detect hone par Exactly 3 Seconds (3000 ms) ke liye 24V Valve ON rahega.
+​Safety Lockout: Jab tak object sensor ke aage se hat nahi jata, tab tak valve dubara trigger nahi hoga (continuous false triggering se bachane ke liye).
