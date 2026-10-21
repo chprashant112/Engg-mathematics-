@@ -1,0 +1,7 @@
+Let me check whether the connection has formed.
+Suppose two cars have these position functions:
+At �, both cars are at position � and � metres, respectively, so their positions are different.
+But here's the question I want you to think about:
+Car 1 has a constant velocity of �, while Car 2 has velocity �. At �, Car 2's velocity is �.
+Why does the derivative of � stay constant, whereas the derivative of � increases with time?
+Don't calculate anything. Just think about how the two cars' positions change over equal time intervals. That's the intuition that makes differentiation click.
